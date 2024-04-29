@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 
 <head>
     <link rel="stylesheet" href="style.css">
@@ -7,13 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 
 <body>
     <div>
         <!-- section 1 header -->
-        <div>
-
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Find a store</a>
+            <a href="#about">Contact us</a>
+            <a href="#contact">Sale</a>
+            <a href="#news">New offers</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
         <!-- section 2 carousel -->
         <div id="corausel1" class="carousel slide" data-bs-ride="carousel">
@@ -48,48 +56,506 @@
             </button>
         </div>
         <!-- section 3 Grid -->
-        <div style="background-color: black;">
+        <div style="background-color: rgb(10, 10, 10);">
+            <h4 class="container" style="color: white; padding: 10px 0px 0px 30px;">Deals Of The Day</h4>
             <div class="apply__grid">
-                <div class="items1">
-                    <img src="assets/images/Lenovo-Laptop-PNG-Clipart.webp" alt="image1">
-                    <h3>Top Deals on Perfomrance Laptops</h3>
+                <div class="items1 heading">
+                    <img src="assets/images/Lenovo-Laptop-PNG-Clipart.webp" alt="image1" style="padding-top: 10px;">
+                    <h4>Top Deals on Laptops</h4>
                     <h6>Starting at ₹45,000</h6>
                 </div>
-                <div class="items2">
+                <div class="items2 heading">
                     <img src="assets/images/PS5-Controller-PNG-Image.png" alt="image1">
-                    <h3>Playstation 5 console at</h3>
+                    <h4>PS5 console at</h4>
                     <h6> ₹42,000 only</h6>
                 </div>
-                <div class="items3">
+                <div class="items3 heading">
                     <img src="assets/images/Apple-iphone-15-pro-maxblack-titanium-512gb-Back-Front-View-Image.webp"
                         alt="image1">
-                    <h3>Iphone 15 starting </h3>
+                    <h4>Iphone 15 starting </h4>
                     <h6> From ₹80,000 </h6>
                 </div>
-                <div class="items4">
+                <div class="items4 heading">
                     <img src="assets/images/370.webp" alt="image1">
-                    <h3>Boat headphones </h3>
-                    <h6> Startingfrom 699 only </h6>
+                    <h4>Boat headphones </h4>
+                    <h6> Starting from 699 only </h6>
                 </div>
-                <div class="items4">
-                    <img src="assets/images/370.webp" alt="image1">
-                    <h3>Boat headphones </h3>
-                    <h6> Startingfrom 699 only </h6>
+                <div class="items5 heading">
+                    <img src="assets/images/sony-bravia-4k-smart-android-led-kd-50x75k-ultra-hd-50-inch-front.webp"
+                        alt="image1">
+                    <h4>Top 4K LED smart TV </h4>
+                    <h6> Starting from 55,999 only </h6>
                 </div>
-                <div class="items4">
-                    <img src="assets/images/370.webp" alt="image1">
-                    <h3>Boat headphones </h3>
-                    <h6> Startingfrom 699 only </h6>
+                <div class="items6 heading">
+                    <img src="assets/images/pngimg.com - air_conditioner_PNG73.png" alt="image1">
+                    <h4>1.5 Ton split A.C </h4>
+                    <h6> Starting from ₹25,000 </h6>
+                </div>
+                <div class="items7 heading">
+                    <img src="assets/images/okkj.png" alt="image1">
+                    <h4>Noise Earbuds </h4>
+                    <h6> Starting from ₹499 </h6>
+                </div>
+                <div class="items8 heading">
+                    <img src="assets/images/348-3481166_samsung-microwave-oven-hot-blast-masala-mode-microwave.png"
+                        alt="image1" style="padding-top: 10px;">
+                    <h4> Top Microwawe </h4>
+                    <h6> Starting from ₹15,000 </h6>
                 </div>
             </div>
         </div>
-        <!-- section 4 carousel -->
-        <div></div>
-        <!-- section 5 reviews -->
-        <div></div>
-        <!-- section 6 contact us -->
-        <div></div>
-        <!-- section 7 footer -->
-        <div></div>
     </div>
+    <!-- section 4 brand carousel -->
+    <div style="background-color:  rgb(10, 10, 10);">
+        <h4 style="color: white; padding: 15px 0px 0px 115px;">Brands We Are Passionate About</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="lc-block">
+                        <div id="carouselLogos" class="carousel slide pt-5 pb-4" data-bs-ride="carousel">
+                            <div class="carousel-inner px-5">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-6 col-lg-2 align-self-center">
+                                            <img class="d-block w-100 px-3 mb-3" src="assets/images/sec4test1.webp"
+                                                alt="">
+                                        </div>
+                                        <div class="col-6 col-lg-2  align-self-center">
+                                            <img class="d-block w-100 px-3  mb-3" src="assets/images/sec4test2.webp"
+                                                alt="">
+                                        </div>
+                                        <div class="col-6 col-lg-2  align-self-center">
+                                            <img class="d-block w-100 px-3  mb-3" src="assets/images/sec4test3.webp"
+                                                alt="">
+                                        </div>
+                                        <div class="col-6 col-lg-2  align-self-center">
+                                            <img class="d-block w-100 px-3  mb-3" src="assets/images/sec4test4.webp"
+                                                alt="">
+                                        </div>
+                                        <div class="col-6 col-lg-2  align-self-center">
+                                            <img class="d-block w-100 px-3  mb-3" src="assets/images/sec4test5.webp"
+                                                alt="">
+                                        </div>
+                                        <div class="col-6 col-lg-2  align-self-center">
+                                            <img class="d-block w-100 px-3  mb-3" src="assets/images/sec4test6.webp"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-6 col-lg-2 align-self-center">
+                                            <img class="d-block w-100 px-3 mb-3" src="assets/images/sec4test1.webp"
+                                                alt="">
+                                        </div>
+                                        <div class="col-6 col-lg-2  align-self-center">
+                                            <img class="d-block w-100 px-3  mb-3" src="assets/images/sec4test2.webp"
+                                                alt="">
+                                        </div>
+                                        <div class="col-6 col-lg-2  align-self-center">
+                                            <img class="d-block w-100 px-3  mb-3" src="assets/images/sec4test3.webp"
+                                                alt="">
+                                        </div>
+                                        <div class="col-6 col-lg-2  align-self-center">
+                                            <img class="d-block w-100 px-3  mb-3" src="assets/images/sec4test4.webp"
+                                                alt="">
+                                        </div>
+                                        <div class="col-6 col-lg-2  align-self-center">
+                                            <img class="d-block w-100 px-3  mb-3" src="assets/images/sec4test5.webp"
+                                                alt="">
+                                        </div>
+                                        <div class="col-6 col-lg-2  align-self-center">
+                                            <img class="d-block w-100 px-3  mb-3" src="assets/images/sec4test6.webp"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <ol class="carousel-indicators list-unstyled position-relative mt-3">
+                            <li data-bs-target="#carouselLogos" data-bs-slide-to="0"
+                                class="active bg-dark carousel-control-prev-icon"></li>
+                            <li data-bs-target="#carouselLogos" data-bs-slide-to="1" class="bg-dark"></li>
+                        </ol> -->
+
+
+                            <div class="w-100 px-3 text-center mt-4">
+                                <a class="carousel-control-prev position-relative d-inline me-4" href="#carouselLogos"
+                                    data-bs-slide="prev">
+                                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="text-dark"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z">
+                                        </path>
+                                    </svg>
+                                    <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next position-relative d-inline" href="#carouselLogos"
+                                    data-bs-slide="next">
+                                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="text-dark"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
+                                        </path>
+                                    </svg>
+                                    <span class="visually-hidden">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section 5 reviews -->
+    <div id="carousels3" class="carousel slide carousel-dark text-center" data-bs-slide="carousel"
+        style="background-color: rgb(10, 10, 10);">
+        <!-- you can change touch with slide -->
+        <h3 style="color: white;">Our Testimonials</h3>
+        <!-- Inner -->
+        <div class="carousel-inner py-4" style="color: white;">
+            <!-- Single item -->
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img class="rounded-circle shadow-1-strong mb-4" src="assets/images/sec5img1.jpg"
+                                alt="avatar" style="width: 150px; height: 150px;" />
+                            <h5 class="mb-3">Anna Deynah</h5>
+                            <p>UX Designer</p>
+                            <p style="color: white;">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                            </p>
+                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <img class="rounded-circle shadow-1-strong mb-4" src="assets/images/sec5img2.jpeg"
+                                alt="avatar" style="width: 150px; height: 150px;" />
+                            <h5 class="mb-3">John Doe</h5>
+                            <p>Web Developer</p>
+                            <p style="color: white;">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                suscipit laboriosam, nisi ut aliquid commodi.
+                            </p>
+                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li>
+                                    <i class="fas fa-star-half-alt fa-sm"></i>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <img class="rounded-circle shadow-1-strong mb-4" src="assets/images/sec5img3.jpg"
+                                alt="avatar" style="width: 150px; height: 150px;" />
+                            <h5 class="mb-3">Maria Kate</h5>
+                            <p>Photographer</p>
+                            <p style="color: white;">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                praesentium voluptatum deleniti atque corrupti.
+                            </p>
+                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="far fa-star fa-sm"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img class="rounded-circle shadow-1-strong mb-4" src="assets/images/sec5img4.jpg"
+                                alt="avatar" style="width: 150px; height: 150px;" />
+                            <h5 class="mb-3">John Doe</h5>
+                            <p>UX Designer</p>
+                            <p style="color: white;">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                            </p>
+                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <img class="rounded-circle shadow-1-strong mb-4" src="assets/images/tester.1jpg.jpg"
+                                alt="avatar" style="width: 150px; height: 150px;" />
+                            <h5 class="mb-3">Alex Rey</h5>
+                            <p>Web Developer</p>
+                            <p style="color: white;">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                suscipit laboriosam, nisi ut aliquid commodi.
+                            </p>
+                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li>
+                                    <i class="fas fa-star-half-alt fa-sm"></i>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <img class="rounded-circle shadow-1-strong mb-4" src="assets/images/sec5img6.jpg"
+                                alt="avatar" style="width: 150px; height: 150px;" />
+                            <h5 class="mb-3">Maria Kate</h5>
+                            <p>Photographer</p>
+                            <p style="color: white;">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                praesentium voluptatum deleniti atque corrupti.
+                            </p>
+                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="far fa-star fa-sm"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img class="rounded-circle shadow-1-strong mb-4" src="assets/images/sec5img8.avif"
+                                alt="avatar" style="width: 150px; height: 150px;" />
+                            <h5 class="mb-3">Anna Deynah</h5>
+                            <p>UX Designer</p>
+                            <p style="color: white;">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                                officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                            </p>
+                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <img class="rounded-circle shadow-1-strong mb-4" src="assets/images/sec5img9.jpg"
+                                alt="avatar" style="width: 150px; height: 150px;" />
+                            <h5 class="mb-3">John Doe</h5>
+                            <p>Web Developer</p>
+                            <p style="color: white;">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                suscipit laboriosam, nisi ut aliquid commodi.
+                            </p>
+                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li>
+                                    <i class="fas fa-star-half-alt fa-sm"></i>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <img class="rounded-circle shadow-1-strong mb-4" src="assets/images/sec5img7.webp"
+                                alt="avatar" style="width: 150px; height: 150px;" />
+                            <h5 class="mb-3">Maria Kate</h5>
+                            <p>Photographer</p>
+                            <p style="color: white;">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                praesentium voluptatum deleniti atque corrupti.
+                            </p>
+                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="far fa-star fa-sm"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button class="carousel-control-prev position-relative" type="button" data-bs-target="#carousels3"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next position-relative" type="button" data-bs-target="#carousels3"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- section 6 contact us -->
+    <div style="background-color: rgb(10, 10, 10);">
+        <div class="container">
+            <section class="text-center" style="color: white;">
+                <h3 style="padding-top: 15px;" class="mb-5">Contact us</h3>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6676.79946492535!2d77.08579369558198!3d28.497648732447235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1713944090090!5m2!1sen!2sin"
+                            class="h-100 w-100" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-lg-7">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="row mb-4">
+                                        <div class="col-md-6 mb-4 mb-md-0">
+                                            <div data-mdb-input-init class="form-outline">
+                                                <input type="text" id="form3Example1" class="form-control inputsec5" />
+                                                <label class="form-label" for="form3Example1">First name</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div data-mdb-input-init class="form-outline">
+                                                <input type="email" id="form3Example2" class="form-control inputsec5" />
+                                                <label class="form-label" for="form3Example2">Email Address</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-mdb-input-init class="form-outline mb-4">
+                                        <input type="text" id="form3Example3" class="form-control inputsec5" />
+                                        <label class="form-label" for="form3Example3">Subject</label>
+                                    </div>
+                                    <div data-mdb-input-init class="form-outline mb-4">
+                                        <textarea class="form-control inputsec5" id="form4Example3" rows="4"></textarea>
+                                        <label class="form-label" for="form4Example3">Message</label>
+                                    </div>
+                                    <div class="text-center text-md-start">
+                                        <button type="submit" data-mdb-button-init data-mdb-ripple-init
+                                            class="btn btn-primary mb-5 mb-md-0">
+                                            Send
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <i class="fas fa-map-marker-alt fa-2x text-primary"></i>
+                                            <p><small>New York, NY 10012, USA</small></p>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-phone fa-2x text-primary"></i>
+                                            <p><small>+ 01 234 567 89</small></p>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-envelope fa-2x text-primary"></i>
+                                            <p><small>contact@gmail.com</small></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- section 7 footer -->
+    <div style="background-color:  rgb(10, 10, 10);">
+        <footer class=" text-center text-lg-start text-white">
+            <!-- Grid container -->
+            <div class="p-4">
+                <!--Grid row-->
+                <div class="row my-4">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
+                            style="width: 150px; height: 150px;">
+                            <img src="assets/images/logoimg.jpg" height="70" alt="" loading="lazy" />
+                        </div>
+                        <ul class="list-unstyled d-flex flex-row justify-content-center">
+                            <li>
+                                <a class="text-white px-2" href="#!">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-white px-2" href="#!">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-white ps-2" href="#!">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="display: flex; flex-direction: column;">
+                        <h5 class="text-uppercase mb-4">Contact</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <p><i class="fas fa-map-marker-alt pe-2"></i>Sector 32, 57 Street, Gurugram</p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-phone pe-2"></i>+91 987657643</p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-envelope pe-2 mb-0"></i>contact@nexus.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2024 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">Nexus.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+    <script src="index.js"></script>
 </body>
+
+</html>
